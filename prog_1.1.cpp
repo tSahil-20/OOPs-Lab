@@ -4,17 +4,17 @@ using namespace std;
 
 class Room{
     private:
-        int length,breathe;
+        int length,breadth;
     public:
         int area(){
-            return length*breathe;
+            return length*breadth;
         }
         int perimeter(){
-            return 2*(length+breathe);
+            return 2*(length+breadth);
         }
         void setLenBre(int len, int bre){
             length = len;
-            breathe = bre;
+            breadth = bre;
         }
 };
 
@@ -40,7 +40,7 @@ int main() {
         cout <<"\nArea: "<<r[i].area();
         cout <<"\nPerimeter: "<<r[i].perimeter();
     }
-    cout <<"\nArea and Perimeter of all the rooms is";
+    cout <<"\nSum of Area and Perimeter of all the rooms is: ";
     for(int i=0;i<n;i++){
         area = area + r[i].area();
         peri = peri + r[i].perimeter();

@@ -35,7 +35,7 @@ int main() {
     cout << "Enter number of Students\n";
     cin >> n;
     Student s[n];
-    int allMarks[n];
+   // int allMarks[n];
     
     for(int i=0;i<n;i++){
         cout <<"Enter details of student: "<<i+1 <<"\n";
@@ -59,7 +59,7 @@ int main() {
         cout <<"\nAvg: "<<s[i].avg();
     }
     
-    int topper_index;
+    int topper_index=0;
     int topper = 0;
     for(int i=0;i<n-1;i++){
         topper = s[i].getMarks();
