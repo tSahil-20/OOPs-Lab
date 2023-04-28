@@ -1,6 +1,6 @@
 # OOP's Lab
 
-This repo contain all the code of OOP lab!
+
 
 ##  Practical-1 Program to implement concept of class and object.
 
