@@ -74,9 +74,9 @@ int main(){
                 break;
             }
             else{
-
+                  
+                topper = s[0].getMarks();
                 for (int temp = 0; temp < i - 1; temp++){
-                    topper = s[temp].getMarks();
                     if ( topper < s[temp + 1].getMarks() ){
                         topper = s[temp + 1].getMarks();
                         topper_index = temp + 1;
