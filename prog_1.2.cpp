@@ -22,7 +22,7 @@ int main() {
     Circle c;
     c.setRadius(5);
     cout << "\nArea of circle: "<< c.area();
-    cout << "\nPerimeter of circle: "<< c.perimeter();
+    cout << "\nPerimeter of circle: "<< c.perimeter() <<"\n\n";
 
     return 0;
 }

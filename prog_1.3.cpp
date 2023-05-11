@@ -61,8 +61,8 @@ int main() {
     
     int topper_index=0;
     int topper = 0;
+    topper = s[0].getMarks();
     for(int i=0;i<n-1;i++){
-        topper = s[i].getMarks();
         if(topper<s[i+1].getMarks()){
             topper = s[i+1].getMarks();
             topper_index = i+1;

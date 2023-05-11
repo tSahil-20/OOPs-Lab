@@ -1,7 +1,6 @@
-// Online C++ compiler to run C++ program online
 #include <iostream>
 #include <string>
-#define size 5
+#define size 70
 using namespace std;
 
 class Student{
@@ -41,7 +40,7 @@ int main(){
         
         switch (flag){
         case 1: // Enter details
-            cout << "Enter details of student: " << i + 1 << "\n";
+            cout << "\nEnter details of student: " << i + 1 << "\n";
             cout << "Roll number: ";
             cin >> r;
             cout << "Name: ";
