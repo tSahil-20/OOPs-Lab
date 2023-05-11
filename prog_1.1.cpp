@@ -23,7 +23,7 @@ class Room{
 
 int main() {
     int n,l,b,area=0,peri=0;
-    cout << "Enter number of rooms\n";
+    cout << "\n\nEnter number of rooms: ";
     cin >> n;
     Room r[n];
     for(int i=0;i<n;i++){
@@ -46,7 +46,7 @@ int main() {
         peri = peri + r[i].perimeter();
     }
     cout <<"\nTotal Area: "<<area;
-    cout <<"\nTotal Perimeter: "<<peri;
+    cout <<"\nTotal Perimeter: "<<peri <<"\n\n\n\n\n";
     return 0;
 }
 
