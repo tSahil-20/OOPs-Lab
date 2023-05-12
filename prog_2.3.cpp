@@ -17,7 +17,7 @@ class Complex{
         cout << "\nSum :" << real << " + " << imaginary << "i\n";
     }
     void multiply(Complex x, Complex y){
-        real = (x.real * y.real) - (x.imaginary + y.imaginary);
+        real = (x.real * y.real) - (x.imaginary * y.imaginary);
         imaginary = (x.real * y.imaginary) + (y.real * x.imaginary);
         cout << "\nMultiply :" << real << " + " << imaginary << "i\n";
     }
