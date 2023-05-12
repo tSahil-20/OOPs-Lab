@@ -19,7 +19,7 @@ class Triangle{
         return (0.5*height*base);
     }
     float perimeter(){
-        side = 1.414*(pow(height,2) + pow(base,2));
+        side = pow((pow(height,2) + pow(base,2)),0.5);
         return (side + height + base);
     }
     ~Triangle(){ // Default destructor
